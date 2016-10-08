@@ -25,10 +25,10 @@ import { AboutComponent } from './components/about/about.component';
     NgbModule,
     RouterModule.forRoot([
       {
-  path: '',
-  redirectTo: '/home',
-  pathMatch: 'full'
-},
+        path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
+      },
       {
         path: 'home',
         component: HomeComponent
